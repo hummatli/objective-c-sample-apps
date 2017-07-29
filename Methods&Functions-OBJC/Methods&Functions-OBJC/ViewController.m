@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -67,6 +68,12 @@
     [self canPurchase2:1 :1 thirdVal:1.1];
     
     [self canPurchase2WithAmount:1 val:1 thirdVal:1.1];
+    
+    Person *person = [[Person alloc]init];
+    [person speakName];
+    
+    [Person stateSpecies];
+    
     
 }
 

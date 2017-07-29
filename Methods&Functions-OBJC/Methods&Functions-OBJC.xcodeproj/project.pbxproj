@@ -13,6 +13,7 @@
 		75C882FC1F2B7B6700650D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C882FA1F2B7B6700650D53 /* Main.storyboard */; };
 		75C882FE1F2B7B6700650D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C882FD1F2B7B6700650D53 /* Assets.xcassets */; };
 		75C883011F2B7B6700650D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C882FF1F2B7B6700650D53 /* LaunchScreen.storyboard */; };
+		75DCAC071F2C4A5A006B28DA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCAC061F2C4A5A006B28DA /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		75C882FD1F2B7B6700650D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75C883001F2B7B6700650D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75C883021F2B7B6700650D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DCAC051F2C4A5A006B28DA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		75DCAC061F2C4A5A006B28DA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				75C882FF1F2B7B6700650D53 /* LaunchScreen.storyboard */,
 				75C883021F2B7B6700650D53 /* Info.plist */,
 				75C882F11F2B7B6700650D53 /* Supporting Files */,
+				75DCAC051F2C4A5A006B28DA /* Person.h */,
+				75DCAC061F2C4A5A006B28DA /* Person.m */,
 			);
 			path = "Methods&Functions-OBJC";
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				75C882F91F2B7B6700650D53 /* ViewController.m in Sources */,
 				75C882F61F2B7B6700650D53 /* AppDelegate.m in Sources */,
+				75DCAC071F2C4A5A006B28DA /* Person.m in Sources */,
 				75C882F31F2B7B6700650D53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +320,7 @@
 				75C883071F2B7B6700650D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
